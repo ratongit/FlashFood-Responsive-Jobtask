@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import HowItWork from './How-it-work';
-import FeedBack from '../FeedBack/FeedBack';
-import Download from '../Download/Download';
+// import HowItWork from './How-it-work';
+// import FeedBack from '../FeedBack/FeedBack';
+// import Download from '../Download/Download';
 
 const ClientCompany = () => {
   const [companys, setCompanys] = useState([]);
@@ -34,15 +34,10 @@ const ClientCompany = () => {
         </button>
       </div>
 
-      <section className='mx-auto flex justify-center'>
-        <div className='flex shadow-sm shadow-black items-center h-36 p-10 rounded-xl mt-8'>
-          <h3 className='me-8'>Are you a grocery chain that wants to work with Flashfood?</h3>
-          <button className='primary-bg text-white hover:translate-x-3 hover:translate-y-3 btn-primary'>LEARN MORE</button>
-        </div>
-      </section>
-      <HowItWork />
+    
+      {/* <HowItWork />
       <FeedBack></FeedBack>
-      <Download></Download>
+      <Download></Download> */}
     </>
   );
 };

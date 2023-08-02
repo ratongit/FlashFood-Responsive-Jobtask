@@ -2,6 +2,7 @@ import { FaSistrix } from "react-icons/fa";
 import React from "react";
 import GoogleMapReact from 'google-map-react';
 import './Banner.css'
+import { Helmet } from "react-helmet";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -18,6 +19,10 @@ const Banner = () => {
     
     return (
         <>
+        <Helmet>
+        <title>Flashfood Locations </title>
+        <meta name="description" content="Helmet application" />
+    </Helmet>
         <div className=" bg-banner">
 
             <div className=" z-30 ">

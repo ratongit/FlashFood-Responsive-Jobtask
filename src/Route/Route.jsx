@@ -24,11 +24,7 @@ const router = createBrowserRouter([
             element:<Location></Location>,
             
         },
-          {
-          path: "/support",
-          element:<SopportHome></SopportHome>,
-          
-      }
+         
       
       ]
     },
@@ -36,7 +32,14 @@ const router = createBrowserRouter([
       path: "/PartnerHome",
       element:<PartnerHome></PartnerHome>,
       
-  },
+  },  
+  
+  {
+    path: "/Support",
+    element:<SopportHome></SopportHome>,
+    
+}
+
 
   ]
 

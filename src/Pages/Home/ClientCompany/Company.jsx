@@ -27,11 +27,11 @@ const ClientCompany = () => {
           className="btn p-4 rounded-2xl border-[1px] py-[6px] hover:bg-gray-100  border-gray-400"
           onClick={handleLoadMore}
         >
-          {showAll ? 'Show Less' : 'LERN MORE'}
+          {showAll ? 'Show Less' : 'See MORE'}
         </button>
       </div>
 
-      <section className='mx-auto max-sm:mx-10 flex justify-center h-20'>
+      {/* <section className='mx-auto max-sm:mx-10 flex justify-center h-20'>
         <div className='md:flex shadow-sm shadow-black items-center p-5 h-36 md:p-10 rounded-xl mt-8'>
           <h3 className='me-8'>Are you a grocery chain that wants to work with Flashfood?</h3>
           <div className='max-md:text-center max-md:pt-4 '>
@@ -45,7 +45,7 @@ const ClientCompany = () => {
           hover:md:translate-x-2 hover:md:translate-y-2 '>LEARN MORE</button>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

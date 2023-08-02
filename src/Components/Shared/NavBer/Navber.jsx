@@ -4,6 +4,12 @@ import './Navber.css'
 
 const Navber = () => {
 
+  const openSupportInNewTab = (e) => {
+    e.preventDefault();
+    const newWindow = window.open("/Support", "_blank");
+    ReactDOM.render(<SopportHome />, newWindow.document.body);
+  };
+
   const nabitem = <>
 
     <li><a href='/' className='hover:text-white text-white   font-semibold text-md'>How it works</a></li>
@@ -20,7 +26,30 @@ const Navber = () => {
         </ul>
       </details>
     </li>
-    <li><a href='/support' className='hover:text-white text-white   font-semibold text-md'> Support</a></li>
+    {/* <li><a href='/support'  
+
+              onClick={(e) => {
+              e.preventDefault();
+              const newWindow = window.open("", "_blank");
+              ReactDOM.render(<SopportHome />, newWindow.document.body);
+            }}
+            className='hover:text-white text-white   font-semibold text-md'> Support</a>
+    
+     </li>
+ */}
+
+<li>
+      <a
+        href="/support"
+        onClick={openSupportInNewTab}
+        className="hover:text-white text-white font-semibold text-md"
+      >
+        Support
+      </a>
+    </li>
+
+
+
     <li><a href='/PartnerHome' className='hover:text-white text-white   font-semibold text-md'> Partner</a></li>
 
   </>

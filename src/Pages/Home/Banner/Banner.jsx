@@ -10,7 +10,7 @@ const Banner = () => {
 
     <div className='overflow-hidden'>
       
-<div className="z-30  sm:p-10 p-5  md:bg-[url('https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png')]  md:bg-cover md:bg-center md:bg-no-repeat bg-indigo-70  flex items-center  md:pt-10 h-[400px]  md:h-[500px]">
+<div className="z-30 max-sm:pt-28 sm:p-10  p-5  md:bg-[url('https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png')]  md:bg-cover md:bg-center md:bg-no-repeat bg-indigo-70  flex items-center  md:pt-10 h-[400px]  md:h-[500px]">
   <div className="md:w-[550px] ps-16 text-white" >
    <h2 className='lg:text-6xl text-4xl  font-bold '>Save money and fight against food waste</h2>
    <p className='my-6'>Get massive savings on fresh food items like meat and produce that are nearing their best before date at grocery stores across Canada and the U.S.</p>
@@ -26,7 +26,7 @@ const Banner = () => {
   </div>
 </div>
 
-<img src="https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png" className=" w-full md:hidden  -mt-20 max-sm:-mt-16 h-[400px] overflow-hidden " />
+<img src="https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png" className=" w-full md:hidden  -mt-20 max-sm:-mt-6 h-[400px] overflow-hidden " />
 
 </div>
 

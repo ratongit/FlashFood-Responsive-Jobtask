@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Fotter from "../../../Components/Shared/Fotter/Fotter";
 import Navber2 from "../../../Components/Shared/NavBer/NavBerForPatner";
 import ClientCompany from "../../Home/ClientCompany/Company";
@@ -10,6 +11,11 @@ import StopShop from "../StopShop/StopShop";
 const PartnerHome = () => {
     return (
         <>
+
+<Helmet>
+        <title>Flashfood | Partner </title>
+        <meta name="description" content="Helmet application" />
+    </Helmet>
 <Navber2></Navber2>
 
 
