@@ -1,0 +1,26 @@
+.primary-color{
+   color: #6859e4;
+}
+.primary-bg{
+    background-color:#4232dd;
+}
+.secondary-color{
+    background-color:#caf4e0;
+}
+.btn-primary{
+
+   font-size: 20px;
+   font-weight: 600;
+   padding: 15px 20px;
+   border-radius: 10px;
+   box-shadow: 6px 6px 2px 1px rgba(5, 5, 22, 0.4);
+}
+.btn-primary:hover{
+    box-shadow: none;
+    transition: .3s;
+
+}
+.navbar a{
+    margin-right: 15px;
+
+}

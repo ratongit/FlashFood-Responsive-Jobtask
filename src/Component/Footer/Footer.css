@@ -1,0 +1,14 @@
+.footer-bg{
+    background-color: #06022a;
+}
+.footer-img{
+    background-image: url('https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6079e923d03463f1d7c7a1c8_footer-blob.svg');
+    max-height: 66vh;
+    height: 90vh;
+    z-index: 1;
+    width: 355px;
+    max-width: 600px;
+    background-size: cover;
+    margin: -70px 0 0 -50px;
+
+}

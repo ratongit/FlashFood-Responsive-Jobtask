@@ -1,0 +1,13 @@
+.partner-small-walpaper{
+  
+    max-width: 350px;
+    min-height: 280px;
+    text-align: center;
+    background-image: url("https://assets-global.website-files.com/5e4482baa13a1926b23e2187/60b6e5a9428fbb0495bdb336_mint-blob.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 70px 67px 20px;
+    top: 30px;
+  
+}
